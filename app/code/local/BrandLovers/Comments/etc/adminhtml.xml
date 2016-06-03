@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<config>
+	<acl>
+		<resources>
+			<admin>
+				<children>
+					<comments translate="title">
+						<title>Brand Lovers</title>
+						<sort_order>0</sort_order>
+						<children>
+							<comments>
+								<title>Brand Lovers</title>
+								<sort_order>71</sort_order>
+								<children>
+									<config>
+										<title>Configuration</title>
+										<sort_order>2</sort_order>
+										<action>adminhtml/system_config/edit/section/comments</action>
+									</config>
+								</children>
+							</comments>
+						</children>
+					</comments>
+					<system>
+						<children>
+							<config>
+								<children>
+									<comments translate="title">
+										<title>Brand Lovers</title>
+										<sort_order>100</sort_order>
+									</comments>
+								</children>
+							</config>
+						</children>
+					</system>
+				</children>
+			</admin>
+		</resources>
+	</acl>
+	<menu>
+		<comments translate="title">
+			<title>BrandLovers</title>
+			<sort_order>71</sort_order>
+		 	<children>
+                <timer> 
+                <title>Brand Lovers</title>
+                <sort_order>10</sort_order>
+                <children>
+                    <config>
+                        <title>Configuration</title>
+                        <sort_order>2</sort_order>
+                        <action>adminhtml/system_config/edit/section/comments</action>
+                    </config>
+                </children>
+                </timer>    
+             </children>
+		</comments>
+	</menu>
+</config>

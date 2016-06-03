@@ -1,2 +1,2 @@
-# magento-plugin
-BrandLovers Magento reviews plugin
+# brandlovers-magento-plugin
+BrandLovers Magento Plugin

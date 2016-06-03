@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <BrandLovers_Comments>
+            <active>true</active>
+            <codePool>local</codePool>
+        </BrandLovers_Comments>
+    </modules>
+</config> 
